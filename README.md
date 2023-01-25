@@ -1,6 +1,5 @@
 # CloudCrypt
 
-[![Build Status](https://travis-ci.org/jmoiron/sqlx.svg?branch=master)](https://travis-ci.org/jmoiron/sqlx)
 
 The project is related to the implementation of secure data storage in cloud services such as Yandex.Disk and Google Drive. It uses the REST API of the cloud service library.
 1) Allows you to encrypt data on the local host and upload it to the cloud.
@@ -14,12 +13,18 @@ Project website: http://cloudcrypt.tilda.ws/
 ```
 # git clone https://github.com/galazat/CloudCrypt.git && cd CloudCrypt
 # pip install -r requirements.txt
-# python ./CloudCrypt.py
 ```
 
 ## Usage
 
-_in progress_
+1. Start CloudCrypt
 ```
+# python ./CloudCrypt.py
+```
+2. Next, you need to give the application permission to write and read files in the cloud drive. To do this, you need to enter the code that will be issued by Yandex.Disk to our application.
+![](https://github.com/galazat/CloudCrypt/blob/master/images/1.png)
 
-```
+![](https://github.com/galazat/CloudCrypt/blob/master/images/2.png)
+
+3. Next, you need to select the mode: download or upload. Select a folder on the cloud drive and a local folder. Enter the encryption key.
+![](https://github.com/galazat/CloudCrypt/blob/master/images/3.png)
