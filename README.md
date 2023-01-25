@@ -22,9 +22,9 @@ Project website: http://cloudcrypt.tilda.ws/
 # python ./CloudCrypt.py
 ```
 2. Next, you need to give the application permission to write and read files in the cloud drive. To do this, you need to enter the code that will be issued by Yandex.Disk to our application.
-![](https://github.com/galazat/CloudCrypt/blob/master/images/1.png)
+![](images/1.png)
 
-![](https://github.com/galazat/CloudCrypt/blob/master/images/2.png)
+![](images/2.png)
 
 3. Next, you need to select the mode: download or upload. Select a folder on the cloud drive and a local folder. Enter the encryption key.
-![](https://github.com/galazat/CloudCrypt/blob/master/images/3.png)
+![](images/3.png)
